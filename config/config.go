@@ -38,12 +38,12 @@ func Default() *Config {
 			// A pan/tilt head with two servos on channels 0 and 1.
 			// Adjust MinPulse/MaxPulse if your servos don't reach full travel.
 			"pan": {
-				Channel:  0,
+				Channel:  15,
 				MinPulse: 1.0,
 				MaxPulse: 2.0,
 			},
 			"tilt": {
-				Channel:  1,
+				Channel:  14,
 				MinPulse: 1.0,
 				MaxPulse: 2.0,
 			},
